@@ -1,0 +1,17 @@
+name: WorldGen
+version: '${project.version}'
+main: com.example.plugin.worldgen.WorldGen
+author: MonkeyMoon104
+description: Plugin for world generation and teleportation
+api-version: '1.19'
+
+commands:
+  warp:
+    description: Teleport to a specific world
+    usage: /warp <world>
+  worldcreate:
+    description: Create a new world
+    usage: /worldcreate <name> [flat]
+  worlddelete:
+    description: Delete an existing world
+    usage: /worlddelete <name>
